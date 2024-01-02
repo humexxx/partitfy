@@ -1,2 +1,2 @@
-# partitfy
+# partify
 Fiesta y amigos
