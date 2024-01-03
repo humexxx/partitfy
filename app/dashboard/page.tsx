@@ -1,9 +1,9 @@
 import Link from "next/link";
 
-export default function Home() {
+export default function Dashboard() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Im the Dashboard
+      <h1>Im the Dashboard</h1>
       <Link href="/login" className="underline">
         Login
       </Link>
