@@ -1,14 +1,14 @@
 import Link from "next/link";
 
-export default function Home() {
+export default function Register() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>Im the Home Page</h1>
+      <h1>Im the Register</h1>
       <Link href="/login" className="underline">
-        Login
+        Dashboard
       </Link>
-      <Link href="/register" className="underline">
-        Register
+      <Link href="/" className="underline">
+        Home
       </Link>
     </main>
   );
